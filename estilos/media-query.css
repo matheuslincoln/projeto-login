@@ -42,4 +42,13 @@
         width: 50%;
         
     }
+
+    #formulario > p {
+        font-size: 1.2em;
+
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
 }
