@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="foto">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja Bem-Vindo(a) novamente. faça login para acessar sua conta e poder fazer as conigurções no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div>
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail" required placeholder="Digite o seu e-mail">
+                    </div>
+                    <div>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha" minlength="8" maxlength="12">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
