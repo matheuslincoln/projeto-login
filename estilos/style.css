@@ -37,6 +37,9 @@ main {
     height: 500px;
     width: 300px;
     overflow: hidden;
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 #foto {
